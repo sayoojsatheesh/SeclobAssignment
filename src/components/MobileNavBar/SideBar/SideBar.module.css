@@ -1,0 +1,17 @@
+.DrawerContent {
+  height: 100%;
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  height: 80px;
+  right: 24px;
+  top: 15px;
+}
+
+.DrawerLinkContainer{
+    position: absolute;
+    top:120px;
+    left: 65px;
+}

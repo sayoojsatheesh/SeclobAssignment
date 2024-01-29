@@ -1,0 +1,26 @@
+.NavbarContainer {
+  position: fixed;
+  top: 24px;
+  min-width: 1136px;
+  background-color: rgba(255, 255, 255, 255);
+  border-radius: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 24px;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .NavbarContainer {
+    width: 80%;
+    min-width: auto;
+    padding: 0 12px;
+  }
+}
