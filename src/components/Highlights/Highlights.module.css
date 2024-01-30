@@ -1,3 +1,45 @@
-.HighlightsContainer{
-    padding: 16px;
+.HighlightsContainer {
+  padding: 16px;
+}
+
+
+.Heading {
+  
+ align-self: flex-start;
+ width: 1136px;
+ margin: 0 auto;
+padding: 0;
+padding-left: 16px;
+
+
+}
+.HiglightsContentContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.HighlightsContent {
+  width: 1136px;
+  height: 384px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 1rem;
+  justify-content: center;
+
+}
+
+.cardContainer {
+  flex: 1 1 30%; /* Cards take equal width initially */
+  max-width: calc(33.33% - 16px); /* Account for the gap */
+  min-width: 300px; /* Minimum width for cards */
+}
+
+/* For smaller screens, set the width to 80% */
+@media screen and (max-width: 1136px) {
+  .HighlightsContent,.Heading  {
+    max-width: 80%;
+  }
+
 }
