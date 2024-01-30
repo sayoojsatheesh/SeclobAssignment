@@ -5,13 +5,6 @@
   margin: 0 auto;
 }
 
-/* For smaller screens, set the width to 80% */
-@media screen and (max-width: 1136px) {
-  .SectionContainer {
-    max-width: 80%;
-  }
-}
-
 /* For Bigger Screen */
 @media (min-width: 870px) {
   .SectionContainer {
@@ -21,3 +14,9 @@
   }
 }
 
+/* For smaller screens, set the width to 80% */
+@media screen and (max-width: 1136px) {
+  .SectionContainer {
+    max-width: 80%;
+  }
+}

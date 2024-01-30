@@ -6,6 +6,7 @@ import Logo from "../../Assets/Logo.png";
 import NavLinks from "./NavLinks/NavLinks";
 import ButtonBookTrip from "../Shared/ButtonBookTrip/ButtonBookTrip";
 
+
 const Navbar = () => {
   return (
     <div className={classes.NavbarContainer}>

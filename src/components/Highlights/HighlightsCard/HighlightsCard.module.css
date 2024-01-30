@@ -5,7 +5,7 @@
   -moz-box-shadow: 3px 8px 4px 0px rgba(82, 79, 82, 1);
   box-shadow: 3px 8px 4px 0px rgba(82, 79, 82, 1);
   height: 340px;
-padding-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .HighlightsCardContainer h3 {

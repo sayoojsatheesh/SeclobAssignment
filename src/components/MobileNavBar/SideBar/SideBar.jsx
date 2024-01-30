@@ -9,7 +9,7 @@ import NavLinks from "../../Navbar/NavLinks/NavLinks";
 
 const SideBar = ({ isOpen, setIsOpen }) => {
 
-  // Function is used to close the drawer //
+  // Function is used to close the Side Drawer //
   function onClose() {
     setIsOpen(false);
   }
@@ -34,7 +34,6 @@ const SideBar = ({ isOpen, setIsOpen }) => {
           fontSize="large"
         />
         <div className={classes.DrawerLinkContainer}>
-
           <NavLinks flexDirection={true}/>
           <ButtonBookTrip bgColor={"rgba(0, 128, 128, 255)"} text={"Book a trip"} />
         </div>

@@ -6,7 +6,6 @@ const NavLinks = ({ flexDirection }) => {
         style={{
           listStyleType: "none",
           display: "flex",
-          alignItems: "center",
           gap: "40px",
           fontFamily: "Trebuchet MS, sans-serif",
           flexDirection: `${flexDirection ? "column" : ""}`,

@@ -10,6 +10,7 @@ import { useMediaQuery } from "@mui/material";
 
 const Highlights = () => {
   const isSmallScreen = useMediaQuery("(max-width: 808px)");
+  
   return (
     <div className={classes.HighlightsContainer}>
       {isSmallScreen ? (

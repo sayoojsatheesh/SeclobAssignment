@@ -1,7 +1,6 @@
 // Images //
 import Aloha from "../../Assets/Aloha.png";
 // MUI //
-// MUI //
 import { useMediaQuery } from "@mui/material";
 
 const Footer = () => {

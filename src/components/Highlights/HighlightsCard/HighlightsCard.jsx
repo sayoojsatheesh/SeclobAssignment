@@ -17,7 +17,7 @@ const HighlightsCard = ({ ImagePath, Heading, SubHeading }) => {
   return (
     <div className={classes.HighlightsCardContainer}>
       <div style={{ height: "170px" }}>
-        <img src={ImagePath} />
+        <img alt="Highlights" src={ImagePath} />
       </div>
       <h3>{Heading}</h3>
       <p>{SubHeading}</p>
