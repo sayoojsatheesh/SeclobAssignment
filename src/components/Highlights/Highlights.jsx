@@ -4,7 +4,7 @@ import classes from "./Highlights.module.css";
 import MobileCarousel from "./MobileCarousel/MobileCarousel";
 import HighlightsCard from "./HighlightsCard/HighlightsCard";
 // Data //
-import Data from "../../Data/HighlightsData";
+import { Data } from "../../Data/HighlightsData";
 // MUI //
 import { useMediaQuery } from "@mui/material";
 
@@ -14,7 +14,7 @@ const Highlights = () => {
     <div className={classes.HighlightsContainer}>
       {isSmallScreen ? (
         <div>
-          <h3 >Highlights</h3>
+          <h3>Highlights</h3>
           <MobileCarousel Data={Data} />
         </div>
       ) : (

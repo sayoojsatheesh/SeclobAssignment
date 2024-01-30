@@ -19,4 +19,12 @@ const Data = [
   },
 ];
 
-export default Data;
+const SectionData = [
+  { id: 1, text: "Adventure" },
+  { id: 2, text: "Culinary" },
+  { id: 3, text: "Eco-tourism" },
+  { id: 4, text: "Family" },
+  { id: 5, text: "Sport" },
+];
+
+export { Data, SectionData };

@@ -1,11 +1,11 @@
-const ButtonBookTrip = ({text}) => {
+const ButtonBookTrip = ({ text, bgColor, Border, color }) => {
   const buttonStyle = {
-    backgroundColor: "rgba(0, 128, 128, 255)",
+    backgroundColor: bgColor,
     padding: "9px 24px",
     borderRadius: "8px",
-    border: "none",
+    border: `${Border ? Border : "none"}`,
     cursor: "pointer",
-    color: "white",
+    color: `${color ? color : "white"}`,
     fontWeight: 700,
   };
 

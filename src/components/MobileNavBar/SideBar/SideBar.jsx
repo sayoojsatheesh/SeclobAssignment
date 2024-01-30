@@ -36,7 +36,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
         <div className={classes.DrawerLinkContainer}>
 
           <NavLinks flexDirection={true}/>
-          <ButtonBookTrip text={"Book a trip"} />
+          <ButtonBookTrip bgColor={"rgba(0, 128, 128, 255)"} text={"Book a trip"} />
         </div>
       </div>
     </Drawer>

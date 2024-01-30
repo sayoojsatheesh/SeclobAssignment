@@ -21,7 +21,7 @@ padding-left: 16px;
 
 .HighlightsContent {
   width: 1136px;
-  height: 384px;
+  /* height: 384px; */
   display: flex;
   flex-wrap: wrap;
   gap: 16px;

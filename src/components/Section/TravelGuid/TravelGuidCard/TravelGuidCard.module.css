@@ -1,0 +1,13 @@
+.TravelGuidContainer {
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TravelGuidLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
