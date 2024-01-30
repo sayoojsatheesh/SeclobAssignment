@@ -18,7 +18,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1136px) {
   .NavbarContainer {
     width: 80%;
     min-width: auto;

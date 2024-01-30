@@ -10,7 +10,7 @@ const CategoriesItem = ({text}) => {
         alignItems: "center",
         backgroundColor:'white',
         borderRadius:'8px',
-        padding:'12px 12px',
+        padding:'5px 12px',
         marginBottom:'7px'
       }}
     >

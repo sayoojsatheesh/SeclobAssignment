@@ -4,6 +4,7 @@ import IntroSection from "../components/IntroSection/IntroSection";
 import Navbar from "../components/Navbar/Navbar";
 import Highlights from "../components/Highlights/Highlights";
 import Section from "../components/Section/Section";
+import Footer from "../components/Footer/Footer";
 // MUI //
 import { useMediaQuery } from "@mui/material";
 
@@ -13,8 +14,9 @@ const Home = () => {
     <>
       {isSmallScreen ? <MobileNavbar /> : <Navbar />}
       <IntroSection />
-      <Highlights/>
-      <Section/>
+      <Highlights />
+      <Section />
+      <Footer />
     </>
   );
 };
