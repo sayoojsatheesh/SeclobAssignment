@@ -10,6 +10,7 @@ import { useMediaQuery } from "@mui/material";
 const TravelGuidCard = ({ GuidName, Info, Image }) => {
   const isSmallScreen = useMediaQuery("(max-width: 450px)");
   let widthHeight = isSmallScreen ? "74px" : "100px";
+  
   const extra = {
     position: "absolute",
     top: "12px",
