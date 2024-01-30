@@ -18,6 +18,17 @@
   align-items: center;
 }
 
+.BtnContainer {
+  transition: transform 0.3s ease-in-out;
+}
+.BtnContainer:hover {
+  transform: scale(1.1);
+}
+
+.Link:hover {
+  color: rgba(0, 128, 128, 255);
+}
+
 @media screen and (max-width: 1136px) {
   .NavbarContainer {
     width: 80%;

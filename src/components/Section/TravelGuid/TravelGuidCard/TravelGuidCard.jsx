@@ -7,7 +7,7 @@ import Avatar from "@mui/material/Avatar";
 // MUI //
 import { useMediaQuery } from "@mui/material";
 
-const TravelGuidCard = ({GuidName,Info,Image}) => {
+const TravelGuidCard = ({ GuidName, Info, Image }) => {
   const isSmallScreen = useMediaQuery("(max-width: 450px)");
   let widthHeight = isSmallScreen ? "74px" : "100px";
   const extra = {

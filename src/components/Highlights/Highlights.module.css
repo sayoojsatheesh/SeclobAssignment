@@ -29,6 +29,13 @@
   flex: 1 1 30%;
   max-width: calc(33.33% - 16px);
   min-width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cardContainer:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  z-index: 10;
 }
 
 /* For smaller screens, set the width to 80% */

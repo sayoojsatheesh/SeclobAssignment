@@ -1,0 +1,23 @@
+.CategoriesItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 5px 12px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.CategoriesItemContainer:hover .arrow {
+  animation: moveArrow 0.5s infinite alternate;
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}

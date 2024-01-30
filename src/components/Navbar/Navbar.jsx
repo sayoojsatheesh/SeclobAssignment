@@ -16,7 +16,7 @@ const Navbar = () => {
           <NavLinks />
         </div>
       </div>
-      <div>
+      <div className={classes.BtnContainer}>
         <ButtonBookTrip bgColor={"rgba(0, 128, 128, 255)"} text={"Book a trip"} />
       </div>
     </div>

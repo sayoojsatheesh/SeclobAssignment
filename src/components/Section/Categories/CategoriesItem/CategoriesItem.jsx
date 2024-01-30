@@ -1,21 +1,16 @@
 // MUI //
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+// CSS //
+import classes from './Categories.module.css'
 
 const CategoriesItem = ({text}) => {
   return (
     <div
-      style={{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        backgroundColor:'white',
-        borderRadius:'8px',
-        padding:'5px 12px',
-        marginBottom:'7px'
-      }}
+    className={classes.CategoriesItemContainer}
+   
     >
       <h4>{text}</h4>
-      <ArrowForwardIcon sx={{color:'#028182'}} />
+      <ArrowForwardIcon className={classes.arrow} sx={{color:'#028182'}} />
     </div>
   );
 };
